@@ -1,0 +1,60 @@
+.home-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: calc(100vh - 60px); /* full height minus navbar */
+  width: 100%;
+  background: transparent;
+}
+
+/* Headline */
+.home-center h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+/* Subtext */
+.home-center p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: #bbb;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-lost {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-lost:hover {
+  background-color: #c0392b;
+}
+
+.btn-found {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-found:hover {
+  background-color: #1e8449;
+}
